@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>I'm HTML </title>
+</head>
+<body>
+    <p>Я параграф </p>
+    <p><em>Я наклонный текст, а я <strong>жирный</strong></em></p>
+
+    <p>сейчас будет отступ</p> <br>
+
+    <p>а тут полосочка</p>
+    <hr>
+    <h2>Списки</h2>
+    <h3>Я       ol - «Упорядоченный список» (циферки)</h3>
+    <ol>
+        <li><h1>Я h1 заголовок </h1></li>
+        <li><h2>Я h2 заголовок </h2></li>
+        <li><h3>Я h3 заголовок </h3></li>
+        <li><h4>Я h4 заголовок </h4></li>
+        <li><h5>Я h5 заголовок </h5></li>
+        <li><h6>Я h6 заголовок </h6></li>
+    </ol>
+    <h3>Я       ul - «Неупорядоченный список» (точечки, можно сделать и квадратики через атрибуты)</h3>
+    <ul>
+        <li>макарошки</li>
+        <li>с котлеткой</li>
+        <li>с пюрешкой</li>
+    </ul>
+    <hr>
+    <p>Можно сделать ссылку, например на обучающее видео <a href="https://www.youtube.com/watch?v=DOEtVdkKwcU">HTML для Начинающих - Практический Курс</a></p>
+         <p>Но пользователь перейдет на другой сайт, (<strong>ЭТО ПЛОХО</strong>) нам нужно добавить атребут target 
+         <a href="https://www.youtube.com/watch?v=DOEtVdkKwcU" target="_blank">HTML для Начинающих - Практический Курс</a>
+         <em>теперь откроется новая вкладка, а наша останется</em> </p>
+         <hr>
+         <h2>Ссылка на другую страницу нашего сайта <a href="Tags.html">ссылочка</a></h2>
+         
+    <hr>
+    <h2>Таблицы</h2>
+    <p>В таблице tr строки, а td столбцы, th заголовки</p>
+    <table>
+        <tr>
+            <th>Имя</th>
+            <th>Фамилия</th>
+            <th>Возраст</th>
+        </tr>
+        <tr>
+            <td>Сергей</td>
+            <td>Фёдоров</td>
+            <td>Пока 23</td>
+        </tr>
+        <tr>
+            <td>Pucano</td>
+            <td>DeBombino</td>
+            <td>Почти 24</td>
+        </tr>
+    </table>
+    <hr>
+    <h1>Форма</h1>
+    <h2>Связаться со мной</h2>
+    <form action="">
+        <label for="">Ваше имя:</label>
+        <input type="text" id="name" placeholder="placeholder" value="собака сутулая">
+
+        <br>
+
+        <label for="">Ваш email:</label>
+        <input type="email" id="email" placeholder="email" value="@sutulaya.ru">
+
+        <br>
+        <label for="">button</label>
+        <input type="button">   <br>
+        <label for="">checkbox</label>
+        <input type="checkbox">     <br>
+        <label for="">color</label>
+        <input type="color">        <br>
+        <label for="">date</label>
+        <input type="date">     <br>
+        <label for="">password</label>
+        <input type="password">     <br>
+        <label for="">range</label>
+        <input type="range">     <br>
+        <label for=""> Место под буквы</label>
+        <textarea name="" id="text" cols="30" rows="10"></textarea> <br>
+        <input type="submit">       <br>
+        <input type="submit" value="Можно что-нибудь написать...">
+    </form>
+</body>
+</html>
